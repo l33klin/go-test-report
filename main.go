@@ -206,7 +206,7 @@ func initRootCommand() (*cobra.Command, *templateData, *cmdFlags) {
 		"l",
 		"",
 		"the JSON module list")
-	rootCmd.PersistentFlags().BoolVarP(&flags.verbose,
+	rootCmd.PersistentFlags().BoolVarP(&flags.groupByPackage,
 		"groupByPackage",
 		"p",
 		false,
